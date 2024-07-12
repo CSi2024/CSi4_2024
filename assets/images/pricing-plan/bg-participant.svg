@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Pricing_plan" data-name="Pricing plan" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 376 162">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+        fill-rule: evenodd;
+        stroke: #f02024;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="188" y1="-1272" x2="188" y2="-1439.1" gradientTransform="translate(0 -1272) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fcf8f3"/>
+      <stop offset="1" stop-color="#fcf8f3"/>
+    </linearGradient>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="-103.6" y="-155.5" width="357.1" height="300"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" x="-103.6" y="-155.5" width="357.1" height="300"/>
+    </clipPath>
+  </defs>
+  <g id="_02" data-name=" 02">
+    <path id="BG" class="cls-2" d="M0,0h376v167.1h-126.9c-5,0-10-10.3-15-10.3s-10.1,10.3-15.2,10.3-10-10.3-15-10.3-9.9,10.3-14.8,10.3-10.1-10.3-15.1-10.3-10.2,10.3-15.2,10.3-9.9-10.3-14.7-10.3-10.1,10.3-15,10.3H0V0Z"/>
+  </g>
+</svg>
