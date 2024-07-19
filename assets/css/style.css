@@ -7782,7 +7782,7 @@ footer .footer-bottom .footer-bottom-content p a {
   flex-direction: column;
   align-items: center;
   background-color: #ffffff; /* White background for the container */
-  width: 80%; /* Container width is 80% of the viewport width */
+  width: 90%; /* Container width is 80% of the viewport width */
   padding: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow for a lifted card effect */
   border-radius: 10px; /* Rounds the corners */
