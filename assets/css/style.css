@@ -538,7 +538,9 @@ footer
   .cart-content
   .cart-list
   .cart-item,
-.pricing-item .pricing-inner .pricing-header h3 {
+.pricing-item .pricing-inner .pricing-header,
+.pricing-item .pricing-inner .pricing-header2 
+h3 {
   margin-bottom: 10px;
 }
 
@@ -1274,6 +1276,7 @@ footer
 .fore-zero .section-wrapper .zero-item,
 .pricing-item .pricing-inner .pricing-content .get-ticket a ul li.icon,
 .pricing-item .pricing-inner .pricing-header,
+.pricing-item .pricing-inner .pricing-header2, 
 .schedule-pack h5,
 .speaker-item-2 .speaker-inner .speaker-content .speaker-content-inner,
 .speaker-item .speaker-inner,
@@ -1352,7 +1355,8 @@ footer
 .pricing-item .pricing-inner .pricing-content .get-ticket a ul li p,
 .pricing-item .pricing-inner .pricing-content .get-ticket a ul,
 .pricing-item .pricing-inner .pricing-content .facilites,
-.pricing-item .pricing-inner .pricing-header p,
+.pricing-item .pricing-inner .pricing-header, 
+.pricing-item .pricing-inner .pricing-header2 p,
 .schedule-pack
   .schedule-list
   .accordion-item
@@ -1380,7 +1384,8 @@ footer
   .cart-content
   .cart-list
   .cart-item,
-.pricing-item .pricing-inner .pricing-header h3 {
+.pricing-item .pricing-inner .pricing-header,
+.pricing-item .pricing-inner .pricing-header2 h3 {
   margin-bottom: 10px;
 }
 
@@ -1505,7 +1510,8 @@ footer
 .pricing-item .pricing-inner .pricing-content .get-ticket a ul li p,
 .pricing-item .pricing-inner .pricing-content .get-ticket a ul,
 .pricing-item .pricing-inner .pricing-content .facilites,
-.pricing-item .pricing-inner .pricing-header p,
+.pricing-item .pricing-inner .pricing-header
+.pricing-item .pricing-inner .pricing-header2 p,
 .schedule-pack
   .schedule-list
   .accordion-item
@@ -1815,7 +1821,7 @@ ul li {
 .page-header {
   padding-top: 210px;
   padding-bottom: 110px;
-  background: url(../images/banner/banner2-02.png);
+  background: url(../images/banner/banner2.png);
   background-size: cover;
 }
 @media (min-width: 992px) {
@@ -2357,31 +2363,54 @@ ul li {
 }
 
 .fee-conference-participant {
-  border: 4px solid #17A82D; /* Change color and width as needed */
+  border: 4px solid #17a82d; /* Change color and width as needed */
   border-radius: 12px; /* Optional: to round the corners of the border */
   box-shadow: 0px 0px 100px 0px rgba(71, 29, 29, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
+.fee-conference-participant2 {
+  border: 4px solid #0c74bc; /* Change color and width as needed */
+  border-radius: 12px; /* Optional: to round the corners of the border */
+  box-shadow: 0px 0px 100px 0px rgba(71, 29, 29, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
 
 .fee-conference-workshop {
-  border: 4px solid #F02024; /* Change color and width as needed */
+  border: 4px solid #f02024; /* Change color and width as needed */
   border-radius: 12px; /* Optional: to round the corners of the border */
   box-shadow: 0px 0px 100px 0px rgba(71, 29, 29, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
 }
-
 
 .pricing-item .pricing-inner {
   box-shadow: 0px 0px 20px 0px rgba(71, 29, 29, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.pricing-item .pricing-inner .pricing-header {
+.pricing-item .pricing-inner .pricing-header2 {
   background: url(../images/pricing-plan/02.svg);
   background-size: cover;
   background-position: center;
   padding: 50px;
+  border-radius: 6px 6px 0 0;
+  filter: drop-shadow(0 5px 0 rgba(255, 255, 255, 0.8));
+  transition: 0.3s all cubic-bezier(0.45, 0.05, 0.55, 0.95);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pricing-item .pricing-inner .pricing-header2 p {
+  font-family: "Tahoma", serif;
+  font-size: 18px;
+  text-align: center;
+  color: #fcf8f3;
+}
+
+.pricing-item .pricing-inner .pricing-header {
+  background: url(../images/pricing-plan/02.svg);
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0 10px;
   border-radius: 6px 6px 0 0;
   filter: drop-shadow(0 5px 0 rgba(255, 255, 255, 0.8));
   transition: 0.3s all cubic-bezier(0.45, 0.05, 0.55, 0.95);
@@ -2398,7 +2427,7 @@ ul li {
   background: url(../images/pricing-plan/bg-presenter.svg);
   background-size: cover;
   background-position: center;
-  padding: 50px;
+  padding: 50px 0 10px;
   border-radius: 6px 6px 0 0;
   filter: drop-shadow(0 5px 0 #eb6226);
   transition: 0.3s all cubic-bezier(0.45, 0.05, 0.55, 0.95);
@@ -2411,13 +2440,30 @@ ul li {
   color: #1b2d59;
 }
 
+.pricing-item .pricing-inner .pricing-header-participant2 {
+  background: url(../images/pricing-plan/bg-presenter.svg);
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0 10px;
+  border-radius: 6px 6px 0 0;
+  filter: drop-shadow(0 5px 0 #0c74bc);
+  transition: 0.3s all cubic-bezier(0.45, 0.05, 0.55, 0.95);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pricing-item .pricing-inner .pricing-header-participant2 p {
+  font-family: "Tahoma", serif;
+  font-size: 18px;
+  color: #1b2d59;
+}
+
 .pricing-item .pricing-inner .pricing-header-participant {
   background: url(../images/pricing-plan/bg-workshop.svg);
   background-size: cover;
   background-position: center;
-  padding: 50px;
+  padding: 50px 0 10px;
   border-radius: 6px 6px 0 0;
-  filter: drop-shadow(0 5px 0 #17A82D);
+  filter: drop-shadow(0 5px 0 #17a82d);
   transition: 0.3s all cubic-bezier(0.45, 0.05, 0.55, 0.95);
   transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -2432,9 +2478,9 @@ ul li {
   background: url(../images/pricing-plan/bg-participant.svg);
   background-size: cover;
   background-position: center;
-  padding: 50px;
+  padding: 50px 0 10px;
   border-radius: 6px 6px 0 0;
-  filter: drop-shadow(0 5px 0 #F02024);
+  filter: drop-shadow(0 5px 0 #f02024);
   transition: 0.3s all cubic-bezier(0.45, 0.05, 0.55, 0.95);
   transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -2457,7 +2503,7 @@ ul li {
 }
 
 .pricing-item .pricing-inner .pricing-content .facilites {
-  padding: 30px 25px;
+  padding: 30px 0;
 }
 .pricing-item .pricing-inner .pricing-content .facilites .facility-item {
   text-align: left;
@@ -7598,7 +7644,7 @@ footer .footer-bottom .footer-bottom-content p a {
 
 .login-section {
   padding: 80px 0;
-  background: url(../images/banner/banner2-02.png);
+  background: url(../images/banner/banner2.png);
   background-size: cover;
   text-align: center;
 }
@@ -8267,6 +8313,11 @@ footer .footer-bottom .footer-bottom-content p a {
   font-weight: 300;
   font-style: italic;
 }
+.get-ticket h4 {
+  font-size: 28px;
+  padding: 15px 0 15px;
+  font-weight: bold;
+}
 
 .csi-history-section {
   background-color: #ffffff; /* White background for the section */
@@ -8431,7 +8482,7 @@ footer .footer-bottom .footer-bottom-content p a {
 }
 
 .new-fee .vat h4 {
-  font-size: 30px;
+  font-size: 90px;
   padding: 15px 0 15px;
   font-weight: bold;
 }
