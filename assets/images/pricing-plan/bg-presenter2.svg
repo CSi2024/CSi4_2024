@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.9.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Pricing_plan" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 376 162" style="enable-background:new 0 0 376 162;" xml:space="preserve">
+<style type="text/css">
+	
+		.st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#BG_00000046312287888170916380000004820960082216818870_);stroke:#0C74BC;stroke-width:5;stroke-miterlimit:10;}
+	.st1{opacity:0.1;}
+	.st2{clip-path:url(#SVGID_00000088823212908281068200000007310359433648243899_);}
+</style>
+<linearGradient id="BG_00000011727581587225507760000001650945667973574322_" gradientUnits="userSpaceOnUse" x1="188" y1="2872" x2="188" y2="3039.1001" gradientTransform="matrix(1 0 0 1 0 -2872)">
+	<stop  offset="0" style="stop-color:#FCF8F3"/>
+	<stop  offset="1" style="stop-color:#FCF8F3"/>
+</linearGradient>
+<path id="BG" style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#BG_00000011727581587225507760000001650945667973574322_);stroke:#0C74BC;stroke-width:5;stroke-miterlimit:10;" d="
+	M0,0h376v167.1H249.1c-5,0-10-10.3-15-10.3s-10.1,10.3-15.2,10.3c-5,0-10-10.3-15-10.3c-4.9,0-9.9,10.3-14.8,10.3
+	c-5,0-10.1-10.3-15.1-10.3c-5.1,0-10.2,10.3-15.2,10.3c-4.9,0-9.9-10.3-14.7-10.3c-5,0-10.1,10.3-15,10.3H0V0z"/>
+<g class="st1">
+	<g>
+		<g>
+			<g>
+				<g>
+					<g>
+						<defs>
+							<rect id="SVGID_1_" x="-103.6" y="-155.5" width="357.1" height="300"/>
+						</defs>
+						<clipPath id="SVGID_00000005227780835148952840000008855431113397815964_">
+							<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+						</clipPath>
+						<g style="clip-path:url(#SVGID_00000005227780835148952840000008855431113397815964_);">
+							<g>
+								<g>
+									<g>
+										<g>
+											<defs>
+												
+													<rect id="SVGID_00000093866224340986642440000002981643943966082716_" x="-103.6" y="-155.5" width="357.1" height="300"/>
+											</defs>
+											<clipPath id="SVGID_00000051370140992524181840000001248966737249968031_">
+												<use xlink:href="#SVGID_00000093866224340986642440000002981643943966082716_"  style="overflow:visible;"/>
+											</clipPath>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
